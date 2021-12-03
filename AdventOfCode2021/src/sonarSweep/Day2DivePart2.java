@@ -10,11 +10,10 @@ public class Day2DivePart2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-
+			
 			ArrayList<String> arrayList = new ArrayList<>();
 
-			try (BufferedReader reader = new BufferedReader(
-					new FileReader("E:\\AdventChallenge2021\\day2divedata.txt"))) {
+			try (BufferedReader reader = new BufferedReader(new FileReader("E:\\AdventChallenge2021\\day2divedata.txt"))) {
 				while (reader.ready()) {
 					arrayList.add(reader.readLine());
 				}
